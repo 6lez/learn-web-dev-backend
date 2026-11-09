@@ -1,0 +1,9 @@
+[project]
+name = "learn-web-dev-backend-ai"
+version = "0.1.0"
+description = "Практические задания на Python: класс Appointment и бизнес-правила салона"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
