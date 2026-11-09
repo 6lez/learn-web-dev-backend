@@ -3,8 +3,8 @@
 ```bash
 cd 2
 python -m venv .venv
-.venv/bin/pip install -r requirements-dev.txt
-.venv/bin/uvicorn app.main:app --reload --port 8000  
+.venv/Scripts/pip install -r requirements-dev.txt
+.venv/Scripts/uvicorn app.main:app --reload --port 8000  
 ```
 
 - Swagger UI: <http://localhost:8000/docs>
